@@ -5,3 +5,12 @@
     br = branch
     unstage = reset HEAD --
     last = log -1 HEAD
+[user]
+	name = Cletus
+	email = clet.lee@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	log = auto
+	ui = true
