@@ -1,4 +1,5 @@
 git-config
 ==========
 
-git config
+1. git clone https://github.com/CletusLee/git-config.git ~/gitConfig
+2. ln -s ~/gitConfig/gitconfig ~/.gitconfig1. git clone
