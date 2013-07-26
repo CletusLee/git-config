@@ -6,6 +6,7 @@
     unstage = reset HEAD --
     last = log -1 HEAD
     graph = log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s" 
+	d = difftool
 [user]
 	name = Cletus
 	email = clet.lee@gmail.com
@@ -14,4 +15,8 @@
 	status = auto
 	branch = auto
 	log = auto
-	ui = true
+    ui = true
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
