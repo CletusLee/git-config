@@ -23,3 +23,7 @@
 	tool = vimdiff
 [difftool]
 	prompt = false
+[http]
+	proxy = 10.160.3.88:8080
+[core]
+	editor = vim
