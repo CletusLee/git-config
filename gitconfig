@@ -20,10 +20,12 @@
 	log = auto
     ui = true
 [diff]
-	tool = vimdiff
+    # use git d command to see the diff
+    tool = vimdiff
 [difftool]
 	prompt = false
-[http]
-	proxy = 10.160.3.88:8080
 [core]
 	editor = vim
+[include]
+    # please put device specific config in the .gitlocal file
+    path = .gitlocal
